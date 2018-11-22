@@ -18,7 +18,6 @@ public class DOMParser  {
 
           Element element = document.getDocumentElement();
                 return element.getTagName();
-//          System.out.print(element.getTagName());
 
       }
 }
