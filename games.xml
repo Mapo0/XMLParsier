@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!--<Valve EXTERNAL_XML_VERSION="1.0">-->
+    <Games>
+        <RPG>
+            <Name>TES</Name>
+            <ContactNo>1234567890</ContactNo>
+        </RPG>
+
+        <Action>
+            <Name>COD</Name>
+            <ContactNo>123456464567890</ContactNo>
+        </Action>
+    </Games>
+<!--</Valve>-->
