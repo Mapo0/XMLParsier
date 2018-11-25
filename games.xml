@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding = "UTF-8"?>
-<!--<Valve EXTERNAL_XML_VERSION="1.0">-->
-    <Games>
-        <RPG>
-            <Name>TES</Name>
-            <ContactNo>1234567890</ContactNo>
-        </RPG>
 
-        <Action>
-            <Name>COD</Name>
-            <ContactNo>123456464567890</ContactNo>
-        </Action>
-    </Games>
-<!--</Valve>-->
+    <categories>
+        <category name="singleGames">
+            <subcategories>
+                <subcategory name="rpg">
+                    <games>
+                        <game>
+                            <gameName>TES:Skyrim</gameName>
+                            <releaseDate>28-10-2016</releaseDate>
+                            <pegi>16+</pegi>
+                            <price>1200.0</price>
+                            <ratingMetacritic>74</ratingMetacritic>
+                        </game>
+                        <game>
+                            <gameName>Fallout4</gameName>
+                            <releaseDate>10-10-2015</releaseDate>
+                            <pegi>18+</pegi>
+                            <price>850.0</price>
+                            <ratingMetacritic>84</ratingMetacritic>
+                        </game>
+                    </games>
+                </subcategory>
+            <subcategory name="action">
+                <games>
+                    <game>
+                        <gameName>CallofDuty:ModernWarfare2</gameName>
+                        <releaseDate>12-10-2009</releaseDate>
+                        <pegi>16+</pegi>
+                        <price>450.0</price>
+                        <ratingMetacritic>86</ratingMetacritic>
+                    </game>
+                </games>
+            </subcategory>
+            </subcategories>
+        </category>
+        <category name="multiPlayer">
+            <subcategories>
+            <subcategory name="moba">
+                <games>
+                    <game>
+                        <gameName>Dota2</gameName>
+                        <releaseDate>9-06-2013</releaseDate>
+                        <pegi>13+</pegi>
+                        <price>0.0</price>
+                        <ratingMetacritic>90</ratingMetacritic>
+                    </game>
+                    <game>
+                        <gameName>HearthStone</gameName>
+                        <releaseDate>11-03-2014</releaseDate>
+                        <pegi>13+</pegi>
+                        <price>0.0</price>
+                        <ratingMetacritic>95</ratingMetacritic>
+                    </game>
+                </games>
+            </subcategory>
+            </subcategories>
+        </category>
+    </categories>
