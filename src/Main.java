@@ -1,17 +1,16 @@
-import Parsier.DOMParser;
-import Parsier.Sax;
-import org.xml.sax.SAXException;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.stream.XMLStreamException;
-import java.io.IOException;
+import Xml.Parser;
+import Xml.Unmarshalling;
 
 public class Main   {
 
-    public static void main(String[] args) throws IOException, SAXException, ParserConfigurationException, XMLStreamException {
-//        DOMParser tags= new DOMParser();
-//        System.out.print(tags.dom());
+    private static final String XMLpath = "C:\\Users\\User\\IdeaProjects\\XMLParsier\\games.xml";
+    public static void main(String[] args) throws Exception {
 
-        Sax stax1= new Sax();
-        System.out.println(stax1.stax());
+        Parser parse = new Parser();
+
+        System.out.println("XML to java:");
+        System.out.println(parse.parse(XMLpath).toString());
+
+
     }
 }

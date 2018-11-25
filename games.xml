@@ -1,59 +1,31 @@
 <?xml version="1.0" encoding = "UTF-8"?>
 
     <categories>
-        <category name="singleGames">
-            <subcategories>
+        <category name="games">
                 <subcategory name="rpg">
-                    <games>
-                        <game>
+                        <game id="0">
                             <gameName>TES:Skyrim</gameName>
                             <releaseDate>28-10-2016</releaseDate>
-                            <pegi>16+</pegi>
-                            <price>1200.0</price>
+                            <pegi>16</pegi>
+                            <price>1200</price>
                             <ratingMetacritic>74</ratingMetacritic>
                         </game>
-                        <game>
+                        <game id="1">
                             <gameName>Fallout4</gameName>
                             <releaseDate>10-10-2015</releaseDate>
-                            <pegi>18+</pegi>
-                            <price>850.0</price>
+                            <pegi>18</pegi>
+                            <price>850</price>
                             <ratingMetacritic>84</ratingMetacritic>
                         </game>
-                    </games>
                 </subcategory>
             <subcategory name="action">
-                <games>
-                    <game>
+                    <game id="2">
                         <gameName>CallofDuty:ModernWarfare2</gameName>
                         <releaseDate>12-10-2009</releaseDate>
-                        <pegi>16+</pegi>
-                        <price>450.0</price>
+                        <pegi>16</pegi>
+                        <price>450</price>
                         <ratingMetacritic>86</ratingMetacritic>
                     </game>
-                </games>
             </subcategory>
-            </subcategories>
-        </category>
-        <category name="multiPlayer">
-            <subcategories>
-            <subcategory name="moba">
-                <games>
-                    <game>
-                        <gameName>Dota2</gameName>
-                        <releaseDate>9-06-2013</releaseDate>
-                        <pegi>13+</pegi>
-                        <price>0.0</price>
-                        <ratingMetacritic>90</ratingMetacritic>
-                    </game>
-                    <game>
-                        <gameName>HearthStone</gameName>
-                        <releaseDate>11-03-2014</releaseDate>
-                        <pegi>13+</pegi>
-                        <price>0.0</price>
-                        <ratingMetacritic>95</ratingMetacritic>
-                    </game>
-                </games>
-            </subcategory>
-            </subcategories>
         </category>
     </categories>
