@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding = "UTF-8" ?>
- <!--говорим парсеру что документ надо проверить на соответсвие схеме; указываем где именно находится схема-->
-<categories xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="games.xsd" >
-        <category name="games">
-                <subcategory name="rpg">
-                        <game id="0">
-                            <gameName>TES:Skyrim</gameName>
-                            <releaseDate>28-10-2016</releaseDate>
-                            <pegi>16</pegi>
-                            <price>1200</price>
-                            <ratingMetacritic>74</ratingMetacritic>
-                        </game>
-                        <game id="1">
-                            <gameName>Fallout4</gameName>
-                            <releaseDate>10-10-2015</releaseDate>
-                            <pegi>18</pegi>
-                            <price>850</price>
-                            <ratingMetacritic>84</ratingMetacritic>
-                        </game>
-                </subcategory>
-            <subcategory name="action">
-                    <game id="2">
-                        <gameName>CallofDuty:ModernWarfare2</gameName>
-                        <releaseDate>12-10-2009</releaseDate>
-                        <pegi>16</pegi>
-                        <price>450</price>
-                        <ratingMetacritic>86</ratingMetacritic>
-                    </game>
-            </subcategory>
-        </category>
-    </categories>
+        <!--говорим парсеру что документ надо проверить на соответсвие схеме; указываем где именно находится схема-->
+<categories  >
+<category name="games" xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:schemaLocation="games.xsd">
+    <subcategory name="rpg">
+        <game id="0">
+            <gameName>TES:Skyrim</gameName>
+            <releaseDate>28-10-2016</releaseDate>
+            <pegi>16</pegi>
+            <price>1200</price>
+            <ratingMetacritic>74</ratingMetacritic>
+        </game>
+        <game id="1">
+            <gameName>Fallout4</gameName>
+            <releaseDate>10-10-2015</releaseDate>
+            <pegi>18</pegi>
+            <price>850</price>
+            <ratingMetacritic>84</ratingMetacritic>
+        </game>
+    </subcategory>
+    <subcategory name="action">
+        <game id="2">
+            <gameName>CallofDuty:ModernWarfare2</gameName>
+            <releaseDate>12-10-2009</releaseDate>
+            <pegi>16</pegi>
+            <price>450</price>
+            <ratingMetacritic>86</ratingMetacritic>
+        </game>
+    </subcategory>
+</category>
+</categories>
