@@ -17,9 +17,9 @@ import java.util.List;
 
 
 public class Parser {
-    //формат даты
+
     private static final DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-    //заполняем данными
+
     public Categories parse(String path) throws XMLStreamException, FileNotFoundException {
 
         List<Category> categories = null;
