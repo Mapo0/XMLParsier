@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="categories">
+    <xs:annotation>
+      <xs:documentation>говорим парсеру что документ надо проверить на соответсвие схеме; указываем где именно находится схема</xs:documentation>
+    </xs:annotation>
     <xs:complexType>
       <xs:sequence>
         <xs:element name="category">
@@ -69,6 +72,7 @@
           </xs:complexType>
         </xs:element>
       </xs:sequence>
+      <xs:attribute ref="xs:noNamespaceSchemaLocation"/>
     </xs:complexType>
   </xs:element>
 </xs:schema>
