@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding = "UTF-8"?>
-    <categories >
+<?xml version="1.0" encoding = "UTF-8" ?>
+ <!--говорим парсеру что документ надо проверить на соответсвие схеме; указываем где именно находится схема-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+<categories >
         <category name="games">
                 <subcategory name="rpg">
                         <game id="0">
