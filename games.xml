@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding = "UTF-8" ?>
  <!--говорим парсеру что документ надо проверить на соответсвие схеме; указываем где именно находится схема-->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
-<categories >
+<categories xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="gamesXSD.xsd" >
         <category name="games">
                 <subcategory name="rpg">
                         <game id="0">
