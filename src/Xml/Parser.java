@@ -95,11 +95,7 @@ public class Parser {
                             break;
                     }
                     break;
-                case XMLStreamConstants.START_DOCUMENT:
-                    categories = new ArrayList<>();
-                    subcategories = new ArrayList<>();
-                    games = new ArrayList<>();
-                    break;
+
             }
         }
         reader.close();

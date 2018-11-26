@@ -6,8 +6,8 @@ import model.Categories;
 
 public class Main   {
 
-    private static final String XML = "C:\\Users\\Marat_Gabdrakhmanov\\IdeaProjects\\XMLParsier1\\games.xml";
-    private static final String Json = "C:\\Users\\Marat_Gabdrakhmanov\\IdeaProjects\\XMLParsier1\\games.json";
+    private static final String XML = "C:\\Users\\User\\IdeaProjects\\XMLParsier3\\games.xml";
+    private static final String Json = "C:\\Users\\User\\IdeaProjects\\XMLParsier3\\games.json";
     private static final String NewXML = "game.xml";
     public static void main(String[] args) throws Exception {
 
