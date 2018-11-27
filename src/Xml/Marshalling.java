@@ -7,9 +7,9 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import java.io.File;
 
-public class Unmarshalling {
+public class Marshalling {
 
-    public void unmarshalling (Categories categories, String path) {
+    public void marshalling (Categories categories, String path) {
         try {
             File file = new File(path);
             JAXBContext jaxbContext = JAXBContext.newInstance(Categories.class);
